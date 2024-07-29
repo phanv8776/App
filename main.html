@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+    <body>
+        <header class="primary-header section">
+            <div class="container">
+                <h1 class="brand-name">Roasted</h1>
+                <nav class="primary-nav">
+    
+                    <button type="button" class="button mobile-toggle" aria-controls="primary-nav__list" aria-expanded="false">
+                        <span class="line line-top line-top-left"></span>
+                        <span class="line line-top line-top-right"></span>
+                        <span class="line line-middle"></span>
+                        <span class="line line-bottom line-bottom-left"></span>
+                        <span class="line line-bottom line-bottom-right"></span>
+                    </button>
+    
+                    <ul id="primary-nav__list" class="primary-nav__list" role="list" data-state="is-closed">
+                        <li class="primary-nav__item">
+                            <a href="http://" target="_blank" rel="noopener noreferrer" class="primary-nav__link">New</a>
+                        </li>
+                        <li class="primary-nav__item">
+                            <a href="http://" target="_blank" rel="noopener noreferrer" class="primary-nav__link">Bestsellers</a>
+                        </li>
+                        <li class="primary-nav__item">
+                            <a href="http://" target="_blank" rel="noopener noreferrer" class="primary-nav__link">Coming Soon</a>
+                        </li>
+                    </ul>
+    
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero grid-image-stack">
+                <div class="limit-width flow">
+                    <header>
+                        <h2 class="title">Embark on a journey of flavor with our <span>finest freashly roasted coffee!</span></h2>
+                    </header>
+                    <p class="subtitle">Experience the rich aroma & complexity of Roasted's exceptional beans. Begin your coffee adventure today & delight in exclusive offers.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1578583112957-2dcf6878aeae?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyOTgzOTN8&ixlib=rb-4.0.3&q=85" alt="a mug laying on its side and coffee beans spilling out of it">
+    
+            </section>
+    
+            <section class="section products">
+                <div class="container">
+    
+                    <header class="limit-width flow">
+                        <h2 class="heading">Elevate your coffee experience with Roasted's exquisite selection</h2>
+                        <p>Explore a range of premium blends, single-origin delights, and specialty roasts crafted with care to delight your palate and ignite your passion for coffee. Discover your new favorite brew and indulge in every sip!
+                        </p>
+                    </header>
+    
+    
+    
+                    <ul class="coffee-blends grid-auto-fit" role="list">
+                        <!-- Products items go here -->
+    
+                    </ul>
+    
+                    <div>
+                        <button type="button" class="button spinner"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                                <g>
+                                    <circle cx="12" cy="2.5" r="1.5" fill="currentColor" opacity=".14" />
+                                    <circle cx="16.75" cy="3.77" r="1.5" fill="currentColor" opacity=".29" />
+                                    <circle cx="20.23" cy="7.25" r="1.5" fill="currentColor" opacity=".43" />
+                                    <circle cx="21.5" cy="12" r="1.5" fill="currentColor" opacity=".57" />
+                                    <circle cx="20.23" cy="16.75" r="1.5" fill="currentColor" opacity=".71" />
+                                    <circle cx="16.75" cy="20.23" r="1.5" fill="currentColor" opacity=".86" />
+                                    <circle cx="12" cy="21.5" r="1.5" fill="currentColor" />
+                                    <animateTransform attributeName="transform" calcMode="discrete" dur="0.75s" repeatCount="indefinite" type="rotate" values="0 12 12;30 12 12;60 12 12;90 12 12;120 12 12;150 12 12;180 12 12;210 12 12;240 12 12;270 12 12;300 12 12;330 12 12;360 12 12" />
+                                </g>
+                            </svg></button>
+                    </div>
+    
+                </div>
+                </div>
+            </section>
+    
+            <section class="section newsletter hidden">
+                <div class="container">
+    
+                    <article class="newsletter__form-container grid-image-stack ">
+                        <div class="flow">
+                            <h2 class="heading">Join the Roasted Community & savor exclusive benefits</h2>
+                            <p class="subheading">Sign up now & receive <span>15% off</span> your first order.</p>
+                            <p>Stay updated on new releases, special offers, and more!</p>
+                            <form action="">
+                                
+                                  <label for="customer-email">Your email:</label>
+                                  <input type="email" id="customer-email" placeholder="E.g. jsmith@mail.com">
+                             
+                                <button type="submit" class="button newsletter__button" data-button="secondary">Subscribe</button>
+                                  
+                            </form>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1577590835286-1cdd24c08fd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyOTkyNzR8&ixlib=rb-4.0.3&q=85" alt="milk being poured into a cup of coffee to create latte art">
+                    </article>
+                </div>
+            </section>
+    
+            <footer class="footer section hidden">
+    
+                <div class="container flow">
+                    <div class="wrapper">
+                        <h2 class="brand-name">Roasted</h2>
+                        <ul class="social-list" role="list">
+                            <li class="social-list__item">
+                                <a href="http://" target="_blank" rel="noopener noreferrer" class="social-list__link">
+                                    <i>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 448 512">
+                                            <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9S287.7 141 224.1 141m0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7s74.7 33.5 74.7 74.7s-33.6 74.7-74.7 74.7m146.4-194.3c0 14.9-12 26.8-26.8 26.8c-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8s26.8 12 26.8 26.8m76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9c-26.2-26.2-58-34.4-93.9-36.2c-37-2.1-147.9-2.1-184.9 0c-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9c1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0c35.9-1.7 67.7-9.9 93.9-36.2c26.2-26.2 34.4-58 36.2-93.9c2.1-37 2.1-147.8 0-184.8M398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6c-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6c-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6c29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6c11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1" />
+                                        </svg>
+                                    </i>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li class="social-list__item">
+                                <a href="http://" target="_blank" rel="noopener noreferrer" class="social-list__link">
+                                    <i>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 512 512">
+                                            <path fill="currentColor" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256" />
+                                        </svg>
+                                    </i>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li class="social-list__item">
+                                <a href="http://" target="_blank" rel="noopener noreferrer" class="social-list__link">
+                                    <i>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 512 512">
+                                            <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645c0 138.72-105.583 298.558-298.558 298.558c-59.452 0-114.68-17.219-161.137-47.106c8.447.974 16.568 1.299 25.34 1.299c49.055 0 94.213-16.568 130.274-44.832c-46.132-.975-84.792-31.188-98.112-72.772c6.498.974 12.995 1.624 19.818 1.624c9.421 0 18.843-1.3 27.614-3.573c-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319c-28.264-18.843-46.781-51.005-46.781-87.391c0-19.492 5.197-37.36 14.294-52.954c51.655 63.675 129.3 105.258 216.365 109.807c-1.624-7.797-2.599-15.918-2.599-24.04c0-57.828 46.782-104.934 104.934-104.934c30.213 0 57.502 12.67 76.67 33.137c23.715-4.548 46.456-13.32 66.599-25.34c-7.798 24.366-24.366 44.833-46.132 57.827c21.117-2.273 41.584-8.122 60.426-16.243c-14.292 20.791-32.161 39.308-52.628 54.253" />
+                                        </svg>
+                                    </i>
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    
+                    <p class="attribution">Built with <a href="https://fake-coffee-api.vercel.app/" target="_blank" rel="noopener noreferrer">Fake Coffee API</a></p>
+                </div>
+            </footer>
+    
+        </main>
+
+        <script src="/index.js"></script>
+    </body>
+
+</html>
